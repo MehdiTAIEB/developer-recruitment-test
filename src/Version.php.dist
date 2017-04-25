@@ -8,6 +8,8 @@
  * file that was distributed with this source code.
  */
 
+declare( stric_types = 1 );
+
 namespace Kokoroe\Recruitment;
 
 /**
@@ -15,6 +17,6 @@ namespace Kokoroe\Recruitment;
  * specification of the http://semver.org/spec/v2.0.0.html
  * Peering with the test file VersionTest.php for the constraint of the current project.
  */
-class Version implements VersionInterface
-{
+class Version implements VersionInterface {
+
 }

@@ -3,3 +3,4 @@ composer.lock
 vendor
 src/Version.php
 build
+phpunit.xml
