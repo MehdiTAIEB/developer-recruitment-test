@@ -11,11 +11,12 @@
 namespace Kokoroe\Recruitment\Test;
 
 use Kokoroe\Recruitment\Version;
+use PHPUnit_Framework_TestCase;
 
 /**
  * @see http://semver.org/spec/v2.0.0.html
  */
-class VersionTest extends \PHPUnit_Framework_TestCase {
+class VersionTest extends PHPUnit_Framework_TestCase {
 
     public function testSimpleStableVersion( ) {
 
