@@ -8,8 +8,6 @@
  * file that was distributed with this source code.
  */
 
-declare( stric_types = 1 );
-
 namespace Kokoroe\Recruitment;
 
 interface VersionInterface {
